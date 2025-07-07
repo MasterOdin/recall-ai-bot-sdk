@@ -1,0 +1,52 @@
+{
+  "name": "@masterodin/recall-ai-bot-sdk",
+  "version": "0.0.1",
+  "description": "SDK for building with recall.ai bots",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "clean": "rm -rf dist",
+    "lint": "eslint src/**/*.ts",
+    "lint:fix": "eslint src/**/*.ts --fix",
+    "format": "prettier --write src/**/*.ts",
+    "format:check": "prettier --check src/**/*.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/MasterOdin/recall-ai-bot-sdk.git"
+  },
+  "keywords": [
+    "recallai",
+    "bot",
+    "sdk"
+  ],
+  "author": "MasterOdin <matt.peveler@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MasterOdin/recall-ai-bot-sdk/issues"
+  },
+  "homepage": "https://github.com/MasterOdin/recall-ai-bot-sdk#readme",
+  "devDependencies": {
+    "@eslint/js": "^9.30.1",
+    "eslint": "^9.30.1",
+    "eslint-config-prettier": "^10.1.5",
+    "eslint-plugin-import": "^2.32.0",
+    "eslint-plugin-prettier": "^5.5.1",
+    "prettier": "^3.6.2",
+    "typescript": "^5.8.3",
+    "typescript-eslint": "^8.36.0"
+  },
+  "dependencies": {
+    "@types/node": "^24.0.10"
+  }
+}
