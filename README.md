@@ -1,6 +1,6 @@
 # Recall.ai Bot SDK
 
-A TypeScript SDK for building with Recall.ai bots.
+A TypeScript SDK for building with [Recall.ai](https://www.recall.ai/) bots.
 
 ## Installation
 
